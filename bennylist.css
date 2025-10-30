@@ -1,0 +1,145 @@
+/*
+ * You should write your CSS in this file.  Don't forget to add your name and
+ * @oregonstate.edu email address below.
+ *
+ * name: Everett Goldfarb
+ * email: goldfare@oregonstate.edu
+ */
+
+header {
+    display: flex;
+    background-color: black;
+    margin: auto;
+    align-items: end;
+}
+
+h1 {
+    font-family: "Roboto Slab";
+    font-size: 75px;
+    vertical-align: baseline;
+}
+
+h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Roboto";
+}
+
+#posts {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 10px;
+}
+
+.post {
+    width: 250px;
+    height: 300px;
+    border: 1px solid #858585;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+img {
+    align-self: center;
+    margin: auto;
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.post-title:hover {
+    text-decoration: underline;
+}
+
+.post-info-container a {
+    text-decoration: none;
+    color: darkorange;
+}
+
+.post-price {
+    background-color: #fafafa;
+    border: 1px solid #c5c5c5;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 2px;
+}
+
+.filter-input-container {
+    display: flex;
+    padding: 10px;
+    background-color: #fafafa;
+}
+
+#filter-condition {
+    width: 80%;
+    display: block;
+}
+
+#sell-something-button {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: darkorange;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+#sell-something-button:hover {
+    width: 55px;
+    height: 55px;
+    margin: 7.5px;
+    font-size: 33px;
+    cursor: pointer;
+}
+
+#filter-min-price {
+    width: 60px;
+    margin: 0 20px 0 5px;
+}
+
+#filter-max-price {
+    width: 60px;
+    margin: 0 0 0 20px;
+}
+
+#filter-city {
+    width: 185px;
+}
+
+.content {
+    display: flex;
+}
+
+.filter-input {
+    display: block;
+    margin: 0 5px 0 5px;
+}
+
+.action-button {
+    background-color: black;
+    color: white;
+    width: 80%;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+
+.action-button:hover {
+    background-color: lightsalmon;
+    color: black;
+    border: #858585 1px solid;
+    font-weight: lighter;
+    cursor: pointer;
+}
