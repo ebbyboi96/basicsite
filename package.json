@@ -1,0 +1,17 @@
+{
+  "name": "bennys-list-ejs",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node compiler.js ./views/item.ejs ./static/compileditem.js && node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
